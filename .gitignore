@@ -1,0 +1,19 @@
+.idea
+*.iml
+*.log
+target
+node_modules
+lib
+bin
+
+# Eclipse
+.classpath
+.settings
+.apt_generated
+.factorypath
+.externalToolBuilders
+
+**/META-INF/maven
+**/META-INF/MANIFEST.MF
+.flattened-pom.xml
+.metadata

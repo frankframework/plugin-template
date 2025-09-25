@@ -1,0 +1,3 @@
+<PipelinePart name="demo-test-part">
+	<Pipe name="pipe-one" className="org.frankframework.plugin.ReadFromLocalClassPath" />
+</PipelinePart>
