@@ -1,28 +1,29 @@
-<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
-		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
 		<groupId>org.frankframework</groupId>
 		<artifactId>plugin-parent</artifactId>
-		<version>9.3.0-SNAPSHOT</version>
+		<version>9.4.0</version>
 	</parent>
 
 	<groupId>org.frankframework</groupId>
-	<artifactId>plugin-template</artifactId>
+	<artifactId>demo-plugin</artifactId>
 
-	<name>test-plugin</name>
-	<description>FrankFramework! PluginJAR Template</description>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>demo-plugin</name>
+	<description>FrankFramework! Demo Plugin</description>
 
 	<organization>
 		<name>Frank!Framework</name>
 	</organization>
 
-	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
-
 	<properties>
-		<framework.version>9.2.0</framework.version>
+		<framework.version>9.4.0</framework.version>
+		<plugin.class>org.frankframework.plugin.MainClass</plugin.class>
 	</properties>
 
 	<dependencies>

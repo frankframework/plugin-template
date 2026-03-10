@@ -1,5 +1,5 @@
 /*
-   Copyright 2025 WeAreFrank!
+   Copyright 2025-2026 WeAreFrank!
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -27,7 +27,7 @@ import org.frankframework.stream.UrlMessage;
 import org.frankframework.util.ClassLoaderUtils;
 
 /**
- * Pipe that used to test reading resource from the local classpath.
+ * Pipe that used to test reading a resource from the local (plugin) classpath.
  */
 public class ReadFromLocalClassPath extends FixedForwardPipe {
 	private final String filename = "local-file.txt";
